@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposys - Data lab website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+ rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+   <section class="Sub-header">
+     <nav>
+         <a href="index.html"><img src="images/logo.jpg"></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle"onclick="hideMenu()"></i>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="About.html">About</a></li>
+                 <li><a href="Course.html">Course</a></li>
+                 <li><a href="Blog.html">blog</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+     </nav>
+    <h1>Our Courses</h1>
+   
+  </section>
+  <!---------courses------->
+ 
+  <section class="course">
+    <h1>course we offer</h1>
+    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt quasi illo iure quisquam explicabo neque, vero dolor.</p>
+
+          </div>
+          
+              <div class="course-col">
+                  <h3>Degree</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt quasi illo iure quisquam explicabo neque, vero dolor.</p>
+    
+                </div>
+                
+                  <div class="course-col">
+                      <h3>Post Graduate</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sunt quasi illo iure quisquam explicabo neque, vero dolor.</p>
+        
+                    </div>
+
+    </div>
+</section>
+<!-----facilities------->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, repellat qui! Officia temporibus facere aperiam doloremque dolorem aut.</p>
+     
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea iusto non molestias quae facilis aliquid dicta ipsa.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Biggest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea iusto non molestias quae facilis aliquid dicta ipsa.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Wealth Is Health</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea iusto non molestias quae facilis aliquid dicta ipsa.</p>
+        </div>
+    </div>
+
+</section>
+
+<!----------Footer------->
+  <section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Impedit facere, dolorum sunt illo dolor rerum odit rem unde.</p>
+  <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linked In"></i>
+      <i class="fa fa-whatsapp"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+  </section>
+
+
+
+
+
+
+
+
+
+
+    <!---------------javascript for toogle menu----------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>

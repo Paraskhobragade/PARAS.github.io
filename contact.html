@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposys - Data lab website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+ rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+   <section class="Sub-header">
+     <nav>
+         <a href="index.html"><img src="images/logo.jpg"></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle"onclick="hideMenu()"></i>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="About.html">About</a></li>
+                 <li><a href="Course.html">Course</a></li>
+                 <li><a href="Blog.html">blog</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+     </nav>
+    <h1>Contact Us</h1>
+   
+  </section>
+  <!------contact Us------->
+  <section class="Location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15540.631542667894!2d77.5689178!3d13.1524391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaadb0832c2758993!2sExposys%20Data%20Labs!5e0!3m2!1sen!2sin!4v1630325020426!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <section class="contact-us">
+      <div class="row">
+          <div class="contact-col">
+              <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Banglore,karnataka, In</p>
+                </span>  
+              </div>
+              <div>
+                 <i class="fa fa-phone"></i>
+            <span>
+                <h5>91+8283820802 </h5>
+                <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>  
+          </div>
+          <div>
+            <i class="fa fa-enevelope-o"></i>
+            <span>
+                <h5>info@yourwebsite.com</h5>
+                <p>Email Us if any query</p>
+            </span>  
+          </div>
+      </div>
+
+          <div class="contact-col"></div>
+
+          <form action="from-handler.php" method="post">
+              <input type="text" name="name" placeholder="Enter Your Name"Required>
+              <input type="email" name="email"placeholder="Enter email address"Required>
+              <input type="text" name="Subject"placeholder="Enter Your Subject"Required>
+              <textarea rows="8" name="message" placeholder="Message"></textarea>
+              <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+
+
+
+
+
+      </div>
+  </section>
+ 
+ 
+
+<!----------Footer------->
+  <section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Impedit facere, dolorum sunt illo dolor rerum odit rem unde.</p>
+  <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linked In"></i>
+      <i class="fa fa-whatsapp"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+  </section>
+
+
+
+
+
+
+
+
+
+
+    <!---------------javascript for toogle menu----------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
